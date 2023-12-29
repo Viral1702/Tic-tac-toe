@@ -1,0 +1,40 @@
+body{
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+.btn{
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    color: red;
+    font-size: 70px;
+    display: flex;
+}
+.container{
+    padding-left: 450px;
+    display: grid;
+    width: 600px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+.winner_div{
+    background-color:black;
+    height: 790px;
+    width: 100%;
+    color: red;
+    text-align: center;
+    font-size: 70px;
+}
+.hide{
+    display: none;
+}
+#text{
+    position: relative;
+    top: 50%;
+}
